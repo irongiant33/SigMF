@@ -18,7 +18,7 @@ the attributes of wireless communications signals and their emitters.
 This extension adds the following optional field to the `annotations` global SigMF object:
 
 |name|required|type|description|
-|----|--------|----|----|-----------|
+|----|--------|----|-----------|
 |`detail`|false|[Detail](signal.sigmf-ext.md#the-detail-object)|Emission details (standard, modulation, etc.)|
 |`emitter`|false|[Emitter](signal.sigmf-ext.md#the-emitter-object)|Emitter details (manufacturer, geo coordinates, etc.)|
 
