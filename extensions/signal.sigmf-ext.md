@@ -59,28 +59,28 @@ The `type` field can have the following values:
 
 The `mod_class` field can have the following values:
 
-|value|description|
-|----|-------|
-|`am`|(analog) amplitude modulation|
-|`fm`|(analog) frequency modulation|
-|`pm`|(analog) phase modulation|
-|`ssb`|single side-band|
-|`dsb`|dual side-band|
-|`vsb`|vestigial side-band|
-|`ask`|amplitude-shift keying|
-|`fsk`|frequency-shift keying|
-|`psk`|phase-shift keying|
+|value|           description         |
+|-----|-------------------------------|
+|`am` |(analog) amplitude modulation  |
+|`fm` |(analog) frequency modulation  |
+|`pm` |(analog) phase modulation      |
+|`ssb`|single side-band               |
+|`dsb`|dual side-band                 |
+|`vsb`|vestigial side-band            |
+|`ask`|amplitude-shift keying         |
+|`fsk`|frequency-shift keying         |
+|`psk`|phase-shift keying             |
 |`qam`|quadrature-amplitude modulation|
-|`ook`|on-off keying|
-|`cpm`|continuous phase modulation|
-|`msk`|minimum-shift keying|
+|`ook`|on-off keying                  |
+|`cpm`|continuous phase modulation    |
+|`msk`|minimum-shift keying           |
 
 #### 3.1.3 The `carrier_variant` Field
 
 The `carrier_variant` field can have the following values:
 
 |value|description|
-|----|----|-------|
+|-----|-----------|
 |`with_carrier`|with-carrier modulation|
 |`suppressed_carrier`|suppressed-carrier modulation|
 |`reduced_carrier`|reduced-carrier modulation|
@@ -92,7 +92,7 @@ The `carrier_variant` field can have the following values:
 The `symbol_variant` field can have the following values:
 
 |value|description|
-|----|----|-------|
+|-----|-----------|
 |`differential`|differential modulation|
 |`offset`|offset modulation (sometimes called 'staggered')|
 
@@ -107,7 +107,7 @@ modulation (e.g., QAM64 has 64 symbols, QPSK has 4 symbols).
 The `duplexing` field can have the following values:
 
 |value|description|
-|----|-------|
+|-----|-----------|
 |`tdd`|time-division duplexing|
 |`fdd`|frequency-division duplexing|
 
